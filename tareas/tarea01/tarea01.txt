@@ -1,0 +1,65 @@
+# === Tarea 1: Comandos de la Terminal (CLI) ===
+
+# Navegación por el sistema de archivos
+
+ pwd
+# Muestra la ruta de la carpeta actual (Print Working Directory)
+
+ cd /
+# Cambia al directorio raíz del sistema
+
+ cd ~
+# Va directamente a la carpeta personal del usuario (Home)
+
+ cd ~/OneDrive/Documentos/Curso-E520
+# Navega hasta la carpeta de trabajo del curso
+
+# Gestión de directorio
+
+ mkdir -p prueba/sub1/sub2
+# Crea carpetas y subcarpetas en cadena (-p crea las intermedias si no existen)
+
+# Creación y edición de archivos de texto 
+
+ echo "Hola mundo esta es la tarea 1" > prueba/archivo.txtecho "Hola mundo esta es la tarea 1" > prueba/archivo.txt
+# Crea el archivo y escribe el texto (sobrescribe el archivo si ya existe)
+
+ echo "Segunda linea de texto" >> prueba/archivo.txtecho "Segunda linea de texto" >> prueba/archivo.txt
+# Agrega texto al final del archivo sin borrar el contenido anterior
+
+# Copiar, mover y eliminar
+
+ cp prueba/archivo.txt prueba/copia.txtcp prueba/archivo.txt prueba/copia.txt
+# Copia el archivo original con otro nombre
+
+ mv prueba/copia.txt prueba/renombrado.txtmv prueba/copia.txt prueba/renombrado.txt
+# Mueve o renombra el archivo copiado
+
+ rm prueba/renombrado.txtrm prueba/renombrado.txt
+# Elimina el archivo renombrado
+
+ rmdir prueba/sub1/sub2rmdir prueba/sub1/sub2
+# Elimina la subcarpeta vacía creada anteriormente
+ 
+# Visualización del contenido
+
+ cat tareas/tarea01/tarea01.txt
+# Muestra todo el contenido del archivo en la consola
+
+ pwd
+ cd /
+ cd ~
+ cd ~/OneDrive/Documentos/Curso-E520
+ mkdir -p prueba/sub1/sub2
+ echo "Hola mundo esta es la tarea 1" > prueba/archivo.txtecho "Hola mundo esta es la tarea 1" > prueba/archivo.txt
+ echo "Segunda linea de texto" >> prueba/archivo.txtecho "Segunda linea de texto" >> prueba/archivo.txt
+ cp prueba/archivo.txt prueba/copia.txtcp prueba/archivo.txt prueba/copia.txt
+ mv prueba/copia.txt prueba/renombrado.txtmv prueba/copia.txt prueba/renombrado.txt
+ rm prueba/renombrado.txtrm prueba/renombrado.txt
+ rmdir prueba/sub1/sub2rmdir prueba/sub1/sub2
+ cat tareas/tarea01/tarea01.txt
+
+ wc -l prueba/archivo.txt
+#Cuenta líneas de un archivo
+
+ exit
